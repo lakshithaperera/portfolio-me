@@ -2,6 +2,12 @@ import React from 'react';
 import './experience.css';
 import { BsPatchCheckFill } from 'react-icons/bs'
 import { motion } from 'framer-motion';
+import {FiFigma} from 'react-icons/fi';
+import {SiAdobephotoshop} from 'react-icons/si';
+import {SiAdobeillustrator} from 'react-icons/si';
+import {SiAdobexd} from 'react-icons/si';
+
+
 
 const Experience = () => {
   return (
@@ -142,6 +148,18 @@ const Experience = () => {
                </div>
 
             </div>
+      </motion.div>
+
+      <motion.div 
+       initial={{  opacity: 0, y:-20 }}
+       whileInView={{ opacity: 1, y:0}}
+       transition={{delay:0.5, duration:1}}
+      className="ui-icons">
+        <FiFigma className='icn' />
+        <SiAdobephotoshop className='icn' />
+        <SiAdobeillustrator className='icn' />
+        <SiAdobexd className='icn' />
+
       </motion.div>
     </section>
   )

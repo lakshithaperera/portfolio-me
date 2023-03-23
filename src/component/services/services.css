@@ -1,8 +1,8 @@
 .services__container{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-    gap: 2rem;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   align-items: flex-start;
+   gap: 2rem;
 }
 
 .service{
@@ -11,6 +11,7 @@
     border: 1px solid var( --color-primary);
     height: fit-content;
     transition: var(--transition);
+    height: 350px;
 }
 
 .service:hover{

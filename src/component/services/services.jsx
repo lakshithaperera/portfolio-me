@@ -41,7 +41,40 @@ const Services = () => {
                  </li>
                  <li>
                    <BiCheck className='service__list-icon' />
-                   <p>convert the file(psd,adobe xd,figma,pdf) to a responsive and pixel-perfect website using HTML5, CSS3, Bootstrap and javascript.</p>
+                   <p>convert the design file(psd,adobe xd,figma,pdf) to a responsive  website using HTML5, CSS3, Bootstrap and javascript.</p>
+                 </li>
+               
+                 
+              </ul>
+          </motion.article>
+
+          <motion.article className="service"
+          initial={{  opacity: 0, y:-20 }}
+          whileInView={{ opacity: 1, y:0}}
+          transition={{delay:0.2, duration:1}}
+          >
+              <div className="service__head">
+                <h3>UI UX Design</h3>
+              </div>
+              <ul className='service__list'>
+            
+
+                 <li>
+                   <BiCheck className='service__list-icon' />
+                   <p>Mobile UI/UX Design</p>
+                 </li>
+                 <li>
+                   <BiCheck className='service__list-icon' />
+                   <p>Web UI/UX Design </p>
+                 </li>
+                 <li>
+                   <BiCheck className='service__list-icon' />
+                   <p>Prototyping & Wireframing</p>
+                 </li>
+
+                 <li>
+                   <BiCheck className='service__list-icon' />
+                   <p>Product research and analysis</p>
                  </li>
                
                  

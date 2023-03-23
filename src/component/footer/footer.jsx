@@ -1,7 +1,5 @@
 import React from 'react'
 import './footer.css'
-import {FaFacebookF} from 'react-icons/fa'
-import {IoLogoTwitter} from 'react-icons/io'
 import {SiFrontendmentor} from 'react-icons/si'
 
 
