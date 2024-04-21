@@ -49,7 +49,7 @@ const Portfolio = () => {
 
                  <div className="text-area">
                  <h3>Hotel<span>(Responsive)</span> <br/> <span>luxury city hotel located in the heart of the commercial capital of Sri Lanka </span></h3>
-                 <p>Technologies - <span>React | javascript| Sass  | html | css | Bootstrap</span> </p>
+                 <p>Technologies - <span>HTML | CSS | Bootstrap | JavaScript | jQuery | WordPress </span> </p>
                  </div>
 
                    <div className="portfolio__item-cta">

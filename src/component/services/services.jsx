@@ -26,6 +26,10 @@ const Services = () => {
                 <h3>frond End  Development</h3>
               </div>
               <ul className='service__list'>
+              <li>
+                   <BiCheck className='service__list-icon' />
+                   <p>Converting PSD/Figma designs into pixel-perfect HTML/CSS</p>
+                 </li>
                  <li>
                    <BiCheck className='service__list-icon' />
                    <p>Responsive and modern Website Development.</p>
@@ -33,17 +37,12 @@ const Services = () => {
 
                  <li>
                    <BiCheck className='service__list-icon' />
-                   <p>Single page applications development services with powerful front end.</p>
+                   <p>Single page applications development services with powerful front end. (ReactJs)</p>
                  </li>
                  <li>
                    <BiCheck className='service__list-icon' />
-                   <p>Using JavaScript-based frameworks. </p>
-                 </li>
-                 <li>
-                   <BiCheck className='service__list-icon' />
-                   <p>convert the design file(psd,adobe xd,figma,pdf) to a responsive  website using HTML5, CSS3, Bootstrap and javascript.</p>
-                 </li>
-               
+                   <p>Design customization and bug fixing</p>
+                 </li>  
                  
               </ul>
           </motion.article>
