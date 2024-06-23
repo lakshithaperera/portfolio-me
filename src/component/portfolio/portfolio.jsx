@@ -45,28 +45,7 @@ const Portfolio = () => {
       >Portfolio</motion.h2>
         <div className="container portfolio__container">
 
-        <motion.article className='portfolio__item'
-             initial={{ opacity: 0, y: -20 }}
-             whileInView={{ opacity: 1, y:0}}
-             transition={{delay:0.1, duration:1}}
-             >
-                 <div className="portfolio__item-image">
-                  <a href="https://pandanusbeach.com/" rel="noreferrer">
-                  <img src={IMG22} alt="" />
-                  </a>
-                   
-                 </div>
-
-                 <div className="text-area">
-                 <h3>Resort & Spa<br/> <span> A tranquil five-story retreat on Induruwa Beach, Sri Lanka.</span></h3>
-                 <p>Technologies - <span>HTML | CSS | JavaScript | jQuery | PHP | WordPress</span> </p>
-                 </div>
-
-                   <div className="portfolio__item-cta">
-                   <a href="https://github.com/lakshithaperera/" className='btn' target='_blank' rel="noreferrer">Github</a>
-                   <a href="https://pandanusbeach.com/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
-                   </div>
-             </motion.article>
+     
 
         <motion.article className='portfolio__item'
              initial={{ opacity: 0, y: -20 }}
@@ -299,7 +278,29 @@ in Sri Lanka </span></h3>
                    <a href="https://www.thesrilankatravelblog.com/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
                    </div>
              </motion.article>
+               
+             <motion.article className='portfolio__item'
+             initial={{ opacity: 0, y: -20 }}
+             whileInView={{ opacity: 1, y:0}}
+             transition={{delay:0.1, duration:1}}
+             >
+                 <div className="portfolio__item-image">
+                  <a href="https://pandanusbeach.com/" rel="noreferrer">
+                  <img src={IMG22} alt="" />
+                  </a>
+                   
+                 </div>
 
+                 <div className="text-area">
+                 <h3>Resort & Spa<br/> <span> A tranquil five-story retreat on Induruwa Beach, Sri Lanka.</span></h3>
+                 <p>Technologies - <span>HTML | CSS | JavaScript | jQuery | PHP | WordPress</span> </p>
+                 </div>
+
+                   <div className="portfolio__item-cta">
+                   <a href="https://github.com/lakshithaperera/" className='btn' target='_blank' rel="noreferrer">Github</a>
+                   <a href="https://pandanusbeach.com/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+                   </div>
+             </motion.article>
              
              <motion.article className='portfolio__item'
              initial={{ opacity: 0, y: -20 }}

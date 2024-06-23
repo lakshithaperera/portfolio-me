@@ -13,7 +13,11 @@ const Services = () => {
      <h5>What I Offer</h5>
      <h2>Services</h2>
 
-     <div className="container services__container">
+     <motion.div className="container services__container"
+         initial={{ opacity: 0, y: -20 }}
+         whileInView={{ opacity: 1, y:0}}
+         transition={{delay:0.1, duration:1}}
+     >
       
        <div className="s-box">
         <div className="left">Front-end Development</div>
@@ -35,7 +39,7 @@ const Services = () => {
         <div className="right">Whether it's selling stuff online or sharing stories, I'll build a custom wordpress website that attracts visitors and turns them into fans</div>
        </div>
           
-     </div>
+     </motion.div>
      <article className="contact__option">
           <a href="https://www.peopleperhour.com/freelancer/technology-programming/lakshitha-perera-full-stack-developer-zzxnnzqw" target='_blank'  rel="noreferrer">
           <div className="pph-logo">
