@@ -15,6 +15,16 @@ import IMG14 from '../../assets/portfolio14.png'
 import IMG15 from '../../assets/portfolio15.png'
 import IMG16 from '../../assets/portfolio16.png'
 import IMG17 from '../../assets/portfolio17.png'
+import IMG18 from '../../assets/portfolio18.png'
+import IMG19 from '../../assets/portfolio19.png'
+import IMG20 from '../../assets/portfolio20.png'
+import IMG21 from '../../assets/portfolio21.png'
+import IMG22 from '../../assets/portfolio22.png'
+import IMG23 from '../../assets/portfolio23.png'
+import IMG24 from '../../assets/portfolio24.png'
+import IMG25 from '../../assets/portfolio25.png'
+import IMG26 from '../../assets/portfolio26.png'
+import IMG27 from '../../assets/portfolio27.png'
 
 
 
@@ -41,6 +51,98 @@ const Portfolio = () => {
              transition={{delay:0.1, duration:1}}
              >
                  <div className="portfolio__item-image">
+                  <a href="https://pandanusbeach.com/" rel="noreferrer">
+                  <img src={IMG22} alt="" />
+                  </a>
+                   
+                 </div>
+
+                 <div className="text-area">
+                 <h3>Resort & Spa<br/> <span> A tranquil five-story retreat on Induruwa Beach, Sri Lanka.</span></h3>
+                 <p>Technologies - <span>HTML | CSS | JavaScript | jQuery | PHP | WordPress</span> </p>
+                 </div>
+
+                   <div className="portfolio__item-cta">
+                   <a href="https://github.com/lakshithaperera/" className='btn' target='_blank' rel="noreferrer">Github</a>
+                   <a href="https://pandanusbeach.com/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+                   </div>
+             </motion.article>
+
+        <motion.article className='portfolio__item'
+             initial={{ opacity: 0, y: -20 }}
+             whileInView={{ opacity: 1, y:0}}
+             transition={{delay:0.1, duration:1}}
+             >
+                 <div className="portfolio__item-image">
+                  <a href="https://www.dimolanka.com/" rel="noreferrer">
+                  <img src={IMG20} alt="" />
+                  </a>
+                   
+                 </div>
+
+                 <div className="text-area">
+                 <h3>Economy<br/> <span> Dimo is a global conglomerate delivering world-class solutions </span></h3>
+                 <p>Technologies - <span>HTML | CSS | Bootstrap | JavaScript | jQuery | ASP.NET</span> </p>
+                 </div>
+
+                   <div className="portfolio__item-cta">
+                   <a href="https://github.com/lakshithaperera/" className='btn' target='_blank' rel="noreferrer">Github</a>
+                   <a href="https://www.dimolanka.com/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+                   </div>
+             </motion.article>
+
+        <motion.article className='portfolio__item'
+             initial={{ opacity: 0, y: -20 }}
+             whileInView={{ opacity: 1, y:0}}
+             transition={{delay:0.1, duration:1}}
+             >
+                 <div className="portfolio__item-image">
+                  <a href="https://www.salonliyo.com/" rel="noreferrer">
+                  <img src={IMG19} alt="" />
+                  </a>
+                   
+                 </div>
+
+                 <div className="text-area">
+                 <h3>Salon <br/> <span> Luxurious Services for a Transformative Beauty Experience in Sri Lanka </span></h3>
+                 <p>Technologies - <span>HTML | CSS | Bootstrap | JavaScript | jQuery </span> </p>
+                 </div>
+
+                   <div className="portfolio__item-cta">
+                   <a href="https://github.com/lakshithaperera/" className='btn' target='_blank' rel="noreferrer">Github</a>
+                   <a href="https://www.salonliyo.com/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+                   </div>
+             </motion.article>
+
+        <motion.article className='portfolio__item'
+             initial={{ opacity: 0, y: -20 }}
+             whileInView={{ opacity: 1, y:0}}
+             transition={{delay:0.1, duration:1}}
+             >
+                 <div className="portfolio__item-image">
+                  <a href="https://www.vip-service.com/" rel="noreferrer">
+                  <img src={IMG18} alt="" />
+                  </a>
+                   
+                 </div>
+
+                 <div className="text-area">
+                 <h3>VIP service<br/> <span> provides personalized concierge services, specializing in luxury experiences</span></h3>
+                 <p>Technologies - <span>HTML | CSS | Bootstrap | JavaScript | jQuery | php </span> </p>
+                 </div>
+
+                   <div className="portfolio__item-cta">
+                   <a href="https://github.com/lakshithaperera/" className='btn' target='_blank' rel="noreferrer">Github</a>
+                   <a href="https://www.vip-service.com/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+                   </div>
+             </motion.article>
+
+        <motion.article className='portfolio__item'
+             initial={{ opacity: 0, y: -20 }}
+             whileInView={{ opacity: 1, y:0}}
+             transition={{delay:0.1, duration:1}}
+             >
+                 <div className="portfolio__item-image">
                   <a href="https://www.fairwaycolombo.com/">
                   <img src={IMG17} alt="" />
                   </a>
@@ -48,7 +150,7 @@ const Portfolio = () => {
                  </div>
 
                  <div className="text-area">
-                 <h3>Hotel<span>(Responsive)</span> <br/> <span>luxury city hotel located in the heart of the commercial capital of Sri Lanka </span></h3>
+                 <h3>Hotel <br/> <span>luxury city hotel located in the heart of the commercial capital of Sri Lanka </span></h3>
                  <p>Technologies - <span>HTML | CSS | Bootstrap | JavaScript | jQuery | WordPress </span> </p>
                  </div>
 
@@ -71,12 +173,12 @@ const Portfolio = () => {
                  </div>
 
                  <div className="text-area">
-                 <h3>Hotel<span>(Responsive)</span> <br/> <span>Hotel located in the heart of Colombo  Sri Lanka. </span></h3>
+                 <h3>Hotel <br/> <span>Hotel located in the heart of Colombo  Sri Lanka. </span></h3>
                  <p>Technologies - <span>React | javascript| Sass  | html | css | Bootstrap</span> </p>
                  </div>
 
                    <div className="portfolio__item-cta">
-                   <a href="https://github.com/lakshithaperera/" className='btn' target='_blank' rel="noreferrer">Github</a>
+                   <a href="https://github.com/lakshithaperera/hotel-booking" className='btn' target='_blank' rel="noreferrer">Github</a>
                    <a href="https://c1fortcolombo.com/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
                    </div>
              </motion.article>
@@ -95,14 +197,38 @@ const Portfolio = () => {
                  </div>
 
                  <div className="text-area">
-                 <h3>educational<span>(Responsive)</span> <br/> <span>Education first is one of the largest & most respected student recruitment organizations
+                 <h3>Educational <br/> <span>Education first is one of the largest & most respected student recruitment organizations
 in Sri Lanka </span></h3>
-                 <p>Technologies - <span>React | javascript| Sass  | html | css | Bootstrap</span> </p>
+                 <p>Technologies - <span>WordPress | javascript| | html | css </span> </p>
                  </div>
 
                    <div className="portfolio__item-cta">
                    <a href="https://github.com/lakshithaperera/" className='btn' target='_blank' rel="noreferrer">Github</a>
                    <a href="http://www.educationfirst.lk/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+                   </div>
+             </motion.article>
+
+             <motion.article className='portfolio__item'
+             initial={{ opacity: 0, y: -20 }}
+             whileInView={{ opacity: 1, y:0}}
+             transition={{delay:0.1, duration:1}}
+             >
+                 <div className="portfolio__item-image">
+                  <a href="https://www.anantaya.lk/">
+                  <img src={IMG21} alt="" />
+                  </a>
+                   
+                 </div>
+
+                 <div className="text-area">
+                 <h3>Resort & Spa <br/> <span> 
+                 Anantaya Resorts: Luxurious Sri Lankan beach resorts with stunning views and fine dining.</span></h3>
+                 <p>Technologies - <span> html | css | JavaScript | jQuery | PHP | WordPress </span> </p>
+                 </div>
+
+                   <div className="portfolio__item-cta">
+                   <a href="https://github.com/lakshithaperera/" className='btn' target='_blank' rel="noreferrer">Github</a>
+                   <a href="https://www.anantaya.lk/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
                    </div>
              </motion.article>
 
@@ -119,7 +245,7 @@ in Sri Lanka </span></h3>
                  </div>
 
                  <div className="text-area">
-                 <h3>Hotel Booking<span>(Responsive)</span> <br/> <span> </span></h3>
+                 <h3>Hotel Booking <br/> <span> </span></h3>
                  <p>Technologies - <span>React | javascript| Sass  | html | css</span> </p>
                  </div>
 
@@ -135,6 +261,119 @@ in Sri Lanka </span></h3>
              transition={{delay:0.1, duration:1}}
              >
                  <div className="portfolio__item-image">
+                  <a href="https://www.srilankacarwithdriverhire.com/">
+                  <img src={IMG23} alt="" />
+                  </a>
+                   
+                 </div>
+
+                 <div className="text-area">
+                 <h3>Drivers Finder  <br/> <span>premier platform for connecting tourists with local drivers in Sri Lanka</span></h3>
+                 <p>Technologies - <span> html | css | JavaScript | PHP | WordPress</span> </p>
+                 </div>
+
+                   <div className="portfolio__item-cta">
+                   <a href="https://github.com/lakshithaperera/" className='btn' target='_blank' rel="noreferrer">Github</a>
+                   <a href="https://www.srilankacarwithdriverhire.com/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+                   </div>
+             </motion.article>
+             <motion.article className='portfolio__item'
+             initial={{ opacity: 0, y: -20 }}
+             whileInView={{ opacity: 1, y:0}}
+             transition={{delay:0.1, duration:1}}
+             >
+                 <div className="portfolio__item-image">
+                  <a href="https://www.thesrilankatravelblog.com/">
+                  <img src={IMG24} alt="" />
+                  </a>
+                   
+                 </div>
+
+                 <div className="text-area">
+                 <h3>Blog-site <br /><span>Travel tips, guides & hidden gems in Sri Lanka</span></h3>
+                 <p>Technologies -<span> html | css | javascript | PHP</span></p>
+                 </div>
+                
+                   <div className="portfolio__item-cta">
+                   <a href="https://github.com/lakshithaperera/" className='btn' target='_blank' rel="noreferrer">Github</a>
+                   <a href="https://www.thesrilankatravelblog.com/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+                   </div>
+             </motion.article>
+
+             
+             <motion.article className='portfolio__item'
+             initial={{ opacity: 0, y: -20 }}
+             whileInView={{ opacity: 1, y:0}}
+             transition={{delay:0.1, duration:1}}
+             >
+                 <div className="portfolio__item-image">
+                  <a href="https://www.tripavi.com/">
+                  <img src={IMG25} alt="" />
+                  </a>
+                 
+                 </div>
+
+                 <div className="text-area">
+                 <h3>Hotels & Tours<span> travel company that specializes in creating  group travel for clients</span></h3>
+                 <p>Technologies -<span> html | css | JavaScript | PHP</span></p>
+                 </div>
+                 
+                   <div className="portfolio__item-cta">
+                   <a href="https://github.com/lakshithaperera/" className='btn' target='_blank' rel="noreferrer">Github</a>
+                   <a href="https://www.tripavi.com/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+                   </div>
+             </motion.article>
+
+             <motion.article className='portfolio__item'
+              initial={{ opacity: 0, y: -20 }}
+              whileInView={{ opacity: 1, y:0}}
+              transition={{delay:0.1, duration:1}}
+             >
+                 <div className="portfolio__item-image">
+                  <a href="https://www.oceanlanka.com/">
+                  <img src={IMG27} alt="" />
+                  </a>
+                   
+                 </div>
+
+                 <div className="text-area">
+                 <h3>Industry<span>Subsidiaries are well recognized in the industry!</span></h3>
+                 <p>Technologies -<span>  html | CSS | javascript | ReactJs</span></p>
+                 </div>
+                 
+                   <div className="portfolio__item-cta">
+                   <a href="https://github.com/lakshithaperera/" className='btn' target='_blank' rel="noreferrer">Github</a>
+                   <a href="https://www.oceanlanka.com/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+                   </div>
+             </motion.article>
+             
+             <motion.article className='portfolio__item'
+             initial={{ opacity: 0, y: -20 }}
+             whileInView={{ opacity: 1, y:0}}
+             transition={{delay:0.1, duration:1}}
+             >
+                 <div className="portfolio__item-image">
+                   <a href="https://inooki.com/"><img  src={IMG26} alt="" />
+                   </a>
+                 </div>
+
+                 <div className="text-area">
+                 <h3>Tour</h3>
+                 <p>Technologies -<span>React | javascript | html | css</span></p>
+                 </div>
+                 
+                   <div className="portfolio__item-cta">
+                   <a href="https://inooki.com/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+                   </div>
+             </motion.article>
+
+
+             <motion.article className='portfolio__item'
+             initial={{ opacity: 0, y: -20 }}
+             whileInView={{ opacity: 1, y:0}}
+             transition={{delay:0.1, duration:1}}
+             >
+                 <div className="portfolio__item-image">
                   <a href="https://lakshithaperera.github.io/coffee-website/">
                   <img src={IMG8} alt="" />
                   </a>
@@ -142,7 +381,7 @@ in Sri Lanka </span></h3>
                  </div>
 
                  <div className="text-area">
-                 <h3>coffee shop<span>(Responsive)</span></h3>
+                 <h3>coffee shop <br /> <span>Online coffee shop web tamplate</span></h3>
                  <p>Technologies -<span>javascript | html | css</span></p>
                  </div>
                  
@@ -152,7 +391,7 @@ in Sri Lanka </span></h3>
                    </div>
              </motion.article>
 
-
+        
         <motion.article className='portfolio__item'
              initial={{ opacity: 0, y: -20 }}
              whileInView={{ opacity: 1, y:0}}
@@ -166,7 +405,7 @@ in Sri Lanka </span></h3>
                  </div>
 
                  <div className="text-area">
-                 <h3>Realtime-Chat-app <span>(Responsive)</span> <br/> <span>You can use this to privately chat with other users</span></h3>
+                 <h3>Realtime-Chat-app  <br/> <span>You can use this to privately chat with other users</span></h3>
                  <p>Technologies - <span>React | firebase | javascript| Sass  | html | css</span> </p>
                  </div>
 
@@ -191,7 +430,7 @@ in Sri Lanka </span></h3>
                  </div>
 
                  <div className="text-area">
-                 <h3>color-shades-generator <span>(Responsive)</span> <br/> <span>you can generate multiple shades of a single color by Simply enter color code</span></h3>
+                 <h3>color-shades-generator  <br/> <span>you can generate multiple shades of a single color by Simply enter color code</span></h3>
                  <p>Technologies - <span>React | Styled-components | javascript | html | css</span> </p>
                  </div>
 
@@ -215,7 +454,7 @@ in Sri Lanka </span></h3>
                  </div>
 
                  <div className="text-area">
-                 <h3>landing-page <span>(Responsive)</span> <br/> <span>Frontend Mentor Challange</span></h3>
+                 <h3>landing-page  <br/> <span>Frontend Mentor Challange</span></h3>
                  <p>Technologies - <span>React | Styled-components | javascript | html | css</span> </p>
                  </div>
 
@@ -238,7 +477,7 @@ in Sri Lanka </span></h3>
                  </div>
 
                  <div className="text-area">
-                 <h3>tip-calculator-app<span>(Responsive)</span> <span>Frontend Mentor Challange</span></h3>
+                 <h3>tip-calculator-app <span>Frontend Mentor Challange</span></h3>
                  <p>Technologies -<span> React | Styled-components | javascript | html | css</span></p>
                  </div>
                 
@@ -261,7 +500,7 @@ in Sri Lanka </span></h3>
                    </a>
                  </div>
 
-                 <div className="text-area"><h3>ecommerce-product-page<span>(Responsive)</span><span>Frontend Mentor Challange</span></h3>
+                 <div className="text-area"><h3>ecommerce-product-page<span>Frontend Mentor Challange</span></h3>
                  <p>Technologies -<span> javascript | html | css</span> </p></div>
                  
                    <div className="portfolio__item-cta">
@@ -284,7 +523,7 @@ in Sri Lanka </span></h3>
                  </div>
 
                  <div className="text-area">
-                 <h3>landing-page<span>(Responsive)</span><span>Frontend Mentor Challange</span></h3>
+                 <h3>landing-page<span>Frontend Mentor Challange</span></h3>
                  <p>Technologies -<span> React | Styled-components | javascript | html | Sass</span></p>
                  </div>
                  
@@ -308,7 +547,7 @@ in Sri Lanka </span></h3>
                  </div>
 
                  <div className="text-area">
-                 <h3>Blog-site<span>(Responsive)</span><span></span></h3>
+                 <h3>Blog-site<span></span></h3>
                  <p>Technologies -<span>  javascript | html | css</span></p>
                  </div>
                 
@@ -334,7 +573,7 @@ in Sri Lanka </span></h3>
                  </div>
 
                  <div className="text-area">
-                 <h3>stats-preview-component<span>(Responsive)</span><span>Frontend Mentor Challange</span></h3>
+                 <h3>stats-preview-component<span>Frontend Mentor Challange</span></h3>
                  <p>Technologies -<span> React | Styled-components | javascript | html | css</span></p>
                  </div>
                  
@@ -382,7 +621,7 @@ in Sri Lanka </span></h3>
                  </div>
 
                  <div className="text-area">
-                 <h3>calculator-app<span>(Responsive)</span></h3>
+                 <h3>calculator-app</h3>
                  <p>Technologies -<span>React | javascript | html | css</span></p>
                  </div>
                  

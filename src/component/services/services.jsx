@@ -1,6 +1,5 @@
 import React from 'react'
 import './services.css'
-import {BiCheck} from 'react-icons/bi'
 import { motion } from 'framer-motion'
 
 
@@ -15,73 +14,36 @@ const Services = () => {
      <h2>Services</h2>
 
      <div className="container services__container">
-         
+      
+       <div className="s-box">
+        <div className="left">Front-end Development</div>
+        <div className="right">I create visually appealing, user-friendly websites that function seamlessly, enhancing your brand's online presence effectively.</div>
+       </div>
 
-          <motion.article className="service"
-          initial={{  opacity: 0, y:-20 }}
-          whileInView={{ opacity: 1, y:0}}
-          transition={{delay:0.2, duration:1}}
-          >
-              <div className="service__head">
-                <h3>frond End  Development</h3>
-              </div>
-              <ul className='service__list'>
-              <li>
-                   <BiCheck className='service__list-icon' />
-                   <p>Converting PSD/Figma designs into pixel-perfect HTML/CSS</p>
-                 </li>
-                 <li>
-                   <BiCheck className='service__list-icon' />
-                   <p>Responsive and modern Website Development.</p>
-                 </li>
+       <div className="s-box">
+        <div className="left">React.js framework</div>
+        <div className="right">Need dynamic single-page applications or intricate enterprise solutions? I create cutting-edge solutions that boost user engagement and drive business growth.</div>
+       </div>
 
-                 <li>
-                   <BiCheck className='service__list-icon' />
-                   <p>Single page applications development services with powerful front end. (ReactJs)</p>
-                 </li>
-                 <li>
-                   <BiCheck className='service__list-icon' />
-                   <p>Design customization and bug fixing</p>
-                 </li>  
-                 
-              </ul>
-          </motion.article>
+       <div className="s-box">
+        <div className="left">MERN Stack</div>
+        <div className="right">Whether you need a data-driven app or a real-time collaboration tool, I'll create something that makes your work easier and more innovative.</div>
+       </div>
 
-          <motion.article className="service"
-          initial={{  opacity: 0, y:-20 }}
-          whileInView={{ opacity: 1, y:0}}
-          transition={{delay:0.2, duration:1}}
-          >
-              <div className="service__head">
-                <h3>UI UX Design</h3>
-              </div>
-              <ul className='service__list'>
-            
-
-                 <li>
-                   <BiCheck className='service__list-icon' />
-                   <p>Mobile UI/UX Design</p>
-                 </li>
-                 <li>
-                   <BiCheck className='service__list-icon' />
-                   <p>Web UI/UX Design </p>
-                 </li>
-                 <li>
-                   <BiCheck className='service__list-icon' />
-                   <p>Prototyping & Wireframing</p>
-                 </li>
-
-                 <li>
-                   <BiCheck className='service__list-icon' />
-                   <p>Product research and analysis</p>
-                 </li>
-               
-                 
-              </ul>
-          </motion.article>
-
+       <div className="s-box">
+        <div className="left">Custom WordPress</div>
+        <div className="right">Whether it's selling stuff online or sharing stories, I'll build a custom wordpress website that attracts visitors and turns them into fans</div>
+       </div>
           
      </div>
+     <article className="contact__option">
+          <a href="https://www.peopleperhour.com/freelancer/technology-programming/lakshitha-perera-full-stack-developer-zzxnnzqw" target='_blank'  rel="noreferrer">
+          <div className="pph-logo">
+            
+          </div>
+          <h4>Contact Me on peopleperhour </h4>
+          </a>
+         </article>
    </motion.section>
   )
 }

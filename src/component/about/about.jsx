@@ -5,7 +5,7 @@ import {FaAward} from 'react-icons/fa';
 import {FiUsers} from 'react-icons/fi';
 import {VscFolderLibrary} from 'react-icons/vsc';
 import { motion } from 'framer-motion';
-import { SiUpwork } from "react-icons/si";
+
 
 
 
@@ -59,12 +59,14 @@ const About = () => {
 
           </div>
 
-          <p className='about-me'>Hi, I am Lakshitha Perera. For the past three years, I've worked as a front-end developer. I enjoy working on any front-end related project using the latest front-end development technology. html5, css3, JavaScript, jQuery, Sass, Bootstrap and powerful front end frameworks react & anguler. I have good hands on website development. I'll do my best for you!</p>
+          <p className='about-me'>Hi, I am Lakshitha Perera. For the past four years, I've worked as a full-stack web developer. I enjoy working on any web-related project using the latest technologies and tools. html5, css3, JavaScript, jQuery, Sass, Bootstrap, reactJs, Mern stack, CMS. I have good hands on website development. I'll do my best for you!</p>
 
           <article className="contact__option">
-          <a href="https://www.upwork.com/freelancers/developerl2?s=1110580755057594368" target='_blank'>
-          <SiUpwork    className='contact__option-icon fvr' />
-          <h4>Contact Me on upwork</h4>
+          <a href="https://www.peopleperhour.com/freelancer/technology-programming/lakshitha-perera-full-stack-developer-zzxnnzqw" rel="noreferrer" target='_blank'>
+          <div className="pph-logo">
+            
+          </div>
+          <h4>Contact Me on peopleperhour </h4>
           </a>
          </article>
         </div>

@@ -18,10 +18,10 @@ const Header = () => {
 
         <h1>
           <a style={{ fontSize:"25px"}} 
-            href=""
+            href="/"
             class="typewrite"
             data-period="1000"
-            data-type='[ "Lakshitha Perera", "Front-End Developer", "UI/UX Designer" ]'
+            data-type='[ "Lakshitha Perera", "Full-stack Developer"]'
           >
             <span class="wrap"></span>
           </a>
